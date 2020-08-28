@@ -1,0 +1,49 @@
+{
+    "generations": 2,
+    "max_width": 4,
+    "families": [
+        {
+            "id": "f0",
+            "generation": 2,
+            "name": "Reilly",
+            "members": [
+                {"id": "m0", "forename": "Thomas", "surname": "Reilly", "parent": "f0", "child": null}, 
+                {"id": "m1", "forename": "James", "surname": "Reilly", "parent": "f0", "child": null},
+                {"id": "m2", "forename": "Emily", "surname": "Reilly", "parent": "f0", "child": null},
+                {"id": "m3", "forename": "Irene", "surname": "Reilly", "parent": "f1", "child": "f0"},
+                {"id": "m4", "forename": "Padraig", "surname": "Reilly", "parent": "f3", "child": "f0"}
+            ]
+        },
+        {
+            "id": "f1",
+            "generation": 1,
+            "name": "Doran",
+            "members": [
+                {"id": "m5", "forename": "Sally", "surname": "Doran", "parent": null, "child": "f1"}, 
+                {"id": "m6", "forename": "Michael", "surname": "Doran", "parent": null, "child": "f1"},
+                {"id": "m7", "forename": "Sandra", "surname": "Doran", "parent": "f1", "child": "f2"},
+                {"id": "m3", "forename": "Irene", "surname": "Reilly", "parent": "f1", "child": "f0"}
+            ]
+        },
+        {
+            "id": "f2",
+            "generation": 2,
+            "name": "Doran",
+            "members": [
+                {"id": "m7", "forename": "Sandra", "surname": "Doran", "parent": "f1", "child": "f2"}, 
+                {"id": "m9", "forename": "Luke", "surname": "Doran", "parent": "f2", "child": null}
+            ]
+        },
+        {
+            "id": "f3",
+            "generation": 1,
+            "name": "Reilly",
+            "members": [
+                {"id": "m10", "forename": "Mary", "surname": "Reilly", "parent": null, "child": "f3"}, 
+                {"id": "m11", "forename": "Packie", "surname": "Reilly", "parent": null, "child": "f3"},
+                {"id": "m12", "forename": "Seamus", "surname": "Reilly", "parent": "f3", "child": null},
+                {"id": "m4", "forename": "Padraig", "surname": "Reilly", "parent": "f3", "child": "f0"}
+            ]
+        }
+    ]
+}

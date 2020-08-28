@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar {
+    height: 4em;
+    width: 100%;
+    position: fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar .brand {
+    font-size: large;
 }
+
+.navbar .nav {
+    font-size: large;
+}
+
+#treeView {
+    padding-top: 5rem;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    padding: 1rem 0;
+    text-align: center;
+    column-fill: balance; /* Keeps column widths the same */
+    white-space: nowrap;
+}
+
+.member {
+    height: auto;
+    min-width: 10rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #e3e3e3;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0 1rem;
+}
+
+.profilePic {
+    width: 8rem;
+    height: 8rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+.familyTile {
+    height: auto;
+    min-width: 10rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #e3e3e3;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0 1rem;
+}
+
+.link {
+    overflow: hidden;
+}
+
+.addButton {
+    margin-right: 0.5rem;
+}
+
