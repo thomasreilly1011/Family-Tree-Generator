@@ -144,7 +144,6 @@ class TreeView extends React.Component {
         var childrenRow = family.generation * 2 + 1
         //Parents
         var parents = []
-        table[parentsRow][col] = []
         family.members.forEach((member, idx) => {
             if (member.child === family.id && member.id !== linkMember) {
                 parents.push(member)
